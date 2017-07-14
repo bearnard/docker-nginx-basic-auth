@@ -31,6 +31,8 @@ docker run -d \
 ## Configuration
 - `HTPASSWD` (default: `foo:$apr1$odHl5EJN$KbxMfo86Qdve2FH4owePn.`): Will be written to the .htpasswd file on launch (non-persistent)
 - `FORWARD_PORT` (default: `80`): Port of the **source** container that should be forwarded
+- `FORWARD_HOST` (default: `web`): Host to proxy to.
+- `HEALTHCHECK_PATH` (default: `/health`): Non authed path to serve as the healthcheck for container orchestration engines like dcos.
 > The container does not need any volumes to be mounted! Nonetheless you will find all interesting files at `/etc/nginx/*`.
 
 ## Multiple Users
