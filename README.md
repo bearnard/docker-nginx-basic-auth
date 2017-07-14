@@ -1,9 +1,5 @@
-[![Travis](https://shields.beevelop.com/travis/beevelop/docker-nginx-basic-auth.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-nginx-basic-auth)
-[![Pulls](https://shields.beevelop.com/docker/pulls/beevelop/nginx-basic-auth.svg?style=flat-square)](https://links.beevelop.com/d-nginx-basic-auth)
-[![Size](https://shields.beevelop.com/docker/image/size/beevelop/nginx-basic-auth/latest.svg?style=flat-square)](https://links.beevelop.com/d-nginx-basic-auth)
-[![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/nginx-basic-auth/latest.svg?style=flat-square)](https://links.beevelop.com/d-nginx-basic-auth)
-![Badges](https://shields.beevelop.com/badge/badges-6-brightgreen.svg?style=flat-square)
-[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
+[![Travis](https://api.travis-ci.org/bearnard/docker-nginx-basic-auth.svg?branch=master)](https://travis-ci.org/bearnard/docker-nginx-basic-auth)
+
 
 # nginx-basic-auth
 ----
